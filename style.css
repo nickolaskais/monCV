@@ -11,6 +11,21 @@ h2{
     font-family: "Roboto", Verdana, sans-serif;
     margin:0;
 }
+h3{
+    font-family: "Roboto", Verdana, sans-serif;
+    margin:0;
+    text-transform: uppercase; 
+}
+h4{
+    margin:15% 0 0 0;
+}
+p{
+    margin:0;
+}
+.fas{
+    font-size: 50px;
+    padding: 2%;
+}
 header{
     display: flex;
 }
@@ -41,4 +56,35 @@ header{
 }
 .styleMetier{
     border-bottom:2px solid #8fc73e;
+}
+#main{
+    display: flex;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    background-color: #8fc73e;
+}
+.aside-title{
+    background-color: #8c3494;
+    padding:2%;
+    text-align: center;
+}
+.contact{
+    padding: 0 0 10% 10%;
+}
+.a-propos{
+    padding:10%;
+    text-align: justify;
+}
+.loisirs{
+    padding:2%;
+    text-align:center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    width:66%;
+    padding: 2%;
 }
