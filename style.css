@@ -25,6 +25,11 @@ p{
 .fas{
     font-size: 50px;
     padding: 2%;
+    overflow: hidden;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border:1px solid #8c3494;
 }
 header{
     display: flex;
@@ -87,4 +92,42 @@ section{
     flex-direction: column;
     width:66%;
     padding: 2%;
+}
+.formation h3{
+    margin-bottom: 5%;
+}
+.form-1, .form-2, .form-3{
+    display: flex;
+    margin-bottom: 5%;
+}
+.date-form-1, .date-form-2, .date-form-3{
+    width:30%;
+}
+.desc-form-1, .desc-form-2, .desc-form-3{
+    width:70%;
+}
+.experience h3{
+    margin-bottom: 5%;
+}
+.expe-1, .expe-2, .expe-3, .expe-4{
+    display: flex;
+    margin-bottom: 5%;
+}
+.date-expe-1, .date-expe-2, .date-expe-3, .date-expe-4{
+    width:30%;
+}
+.desc-expe-1, .desc-expe-2, .desc-expe-3, .desc-expe-4{
+    width:70%;
+}
+.footer h3{
+    margin-bottom: 5%;
+}
+.recommandations{
+    display: flex;
+}
+.reco-1{
+    width: 50%;
+}
+.reco-2{
+    width: 50%;
 }
