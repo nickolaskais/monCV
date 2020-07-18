@@ -167,11 +167,13 @@ section{
 footer{
     display: flex;
 }
-.loisirs{
-    display: flex;
-    flex-direction: column;
+.loisirs-footer{
     width: 24%;
     background-color: #8fc73e;
+    padding-top:6%;
+}
+.loisirs{
+    display: none;
 }
 .section-recommandations{
     display: flex;
@@ -187,9 +189,62 @@ footer{
     margin-top:5%;
 }
 
-@media screen and (max-width:768px) {
+@media only screen and (max-width:768px) {
     body {
         display: flex;
         flex-direction: column;
+    }
+    header, #main, .formation, .experience{
+        display: flex;
+        flex-direction: column;
+    }
+    .photo, .nom, aside, section{
+        width:100%;
+        padding:0;
+    }
+    .contact{
+        text-align: center;
+        padding:0 0 2% 0;
+    }
+    h4{
+        margin:5% 0 0 0;
+    }
+    .nom{
+        margin:0 0 2% 0;
+        align-items: center;
+    }
+    .titre-form, .titre-expe, .titre-reco{
+        display: flex;
+        justify-content: center;
+        margin-top:2%;
+    }
+    .form-1, .form-2, .form-3, .expe-1, .expe-2, .expe-3, .expe-4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    footer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section-recommandations, .loisirs-footer, footer{
+        width:100%;
+        padding:0;
+    }
+    .recommandations{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .reco-1, .reco-2{
+        text-align: center;
+    }
+    .loisirs-footer{
+        display: none;
+        margin-top: 2%;
+    }
+    .loisirs{
+        display: inline;
     }
 }
