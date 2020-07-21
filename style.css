@@ -52,7 +52,7 @@ header{
     margin:0 0 0 6%;
 }
 .stylePrenom{
-    color:#8fc73e;
+    color:#8c3494;
 }
 .styleMetier{
     border-bottom:2px solid #e2e0e0;
@@ -86,6 +86,7 @@ aside{
 .icone-loisirs i::before{
     display: flex;
     justify-content: space-around;
+    margin-top:10px;
 }
 .fa-gamepad, .fa-music, .fa-hiking{
     font-size: 50px;
@@ -186,10 +187,10 @@ footer{
 }
 .reco-1, .reco-2{
     width: 50%;
-    margin-top:5%;
+    margin:5% 5%;
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:800px) {
     body {
         display: flex;
         flex-direction: column;
@@ -209,11 +210,14 @@ footer{
     h4{
         margin:5% 0 0 0;
     }
-    .nom{
-        margin:0 0 2% 0;
-        align-items: center;
+    .fa-circle{
+        margin-top:2px;
     }
-    .titre-form, .titre-expe, .titre-reco{
+    .nom, .nom h1{
+        margin:0 0 2% 0;
+        text-align: center;
+    }
+    .titre-form, .titre-expe{
         display: flex;
         justify-content: center;
         margin-top:2%;
@@ -224,18 +228,31 @@ footer{
         align-items: center;
         width: 100%;
     }
+    .date-form-1, .date-form-2, .date-form-3, .date-expe-1, .date-expe-2, .date-expe-3, .date-expe-4{
+        width:100%;
+        justify-content: center;
+        background-color:#dddddd;
+        padding:5px 0;
+        margin-bottom: 5%;
+    }
     footer{
         display: flex;
         flex-direction: column-reverse;
     }
     .section-recommandations, .loisirs-footer, footer{
+        justify-content: center;
         width:100%;
         padding:0;
     }
     .recommandations{
-        display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .titre-reco{
+        justify-content: center;
+    }
+    .titre-reco h3{
+        font-size: 27px;
     }
     .reco-1, .reco-2{
         text-align: center;
