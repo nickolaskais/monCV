@@ -52,7 +52,7 @@ header{
     margin:0 0 0 6%;
 }
 .stylePrenom{
-    color:#8c3494;
+    color:#673AB7;
 }
 .styleMetier{
     border-bottom:2px solid #e2e0e0;
@@ -67,7 +67,7 @@ aside{
     background-color: #e2e0e0;
 }
 .aside-title{
-    background-color: #8c3494;
+    background-color: #673AB7;
     padding:2%;
     text-align: center;
 }
@@ -95,7 +95,7 @@ aside{
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    border:1px solid #8c3494;
+    border:1px solid #673AB7;
 }
 section{
     display: flex;
@@ -109,7 +109,7 @@ section{
 }
 .titre-form, .titre-expe, .titre-reco{
     display: flex;
-    border-bottom: 3px solid #8c3494;
+    border-bottom: 3px solid #673AB7;
 }
 .fa-graduation-cap{
     font-size:30px;
